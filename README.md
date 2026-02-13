@@ -4,7 +4,7 @@
 
 ### easy
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/meinenec/ohmyzsh-custom/master/tools/install.sh)"`
+`zsh -c "$(curl -fsSL https://raw.githubusercontent.com/meinenec/ohmyzsh-custom/master/tools/install.sh)"`
 
 ### manual
 
