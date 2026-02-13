@@ -22,8 +22,8 @@ then
 fi
 
 # clone the repo
-git clone git@github.com:meinenec/ohmyzsh-custom.git $HOME/.ohmyzsh-custom
-if [ $? -nq 0 ]; then
+git clone https://github.com/meinenec/ohmyzsh-custom.git $HOME/.ohmyzsh-custom
+if [ $? != 0 ]; then
   echo "failed to clone ohmyzsh-custom"
   revert_backup_zshrc
   exit 1
